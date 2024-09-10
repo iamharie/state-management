@@ -34,3 +34,54 @@
 }
 
 /* Project styling */
+/* commom */
+.btn {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(166, 218, 166);
+  cursor: pointer;
+}
+
+.header {
+  background-color: rgb(203, 219, 179);
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.header button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(60, 141, 60);
+  color: white;
+  cursor: pointer;
+}
+
+.main-store {
+  background-color: rgb(136, 136, 177);
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.inventory {
+  background-color: rgb(124, 155, 155);
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.result {
+  background-color: rgb(124, 155, 155);
+  padding: 20px;
+  border-radius: 20px;
+}

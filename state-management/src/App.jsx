@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header total={count} />
       <MainStore add={handleAdd} minus={handleMinus} />
       <Inventory add={handleAdd} minus={handleMinus} />
       <Result total={count} />
