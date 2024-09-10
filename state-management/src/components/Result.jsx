@@ -1,8 +1,8 @@
-export default function Result() {
+export default function Result({ total }) {
   return (
     <div>
       <p>Total Products available</p>
-      <h3>'State Value'</h3>
+      <h3>total Clicks: {total}</h3>
     </div>
   );
 }
