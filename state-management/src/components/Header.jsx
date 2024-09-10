@@ -1,8 +1,7 @@
 import { useRef } from "react";
-
 import PopUp from "./PopUp";
 
-export default function Header({ total }) {
+export default function Header() {
   const popUp = useRef();
   function handleClick() {
     popUp.current.openModal();
@@ -16,7 +15,7 @@ export default function Header({ total }) {
       </p>
       <p>Header component</p>
       <button onClick={handleClick}>Total Products</button>
-      <PopUp ref={popUp} total={total} />
+      <PopUp ref={popUp} total="" />
     </div>
   );
 }
