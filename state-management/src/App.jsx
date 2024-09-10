@@ -3,6 +3,8 @@ import { useState } from "react";
 import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import MainStore from "./components/MainStore";
+import Inventory from "./components/Inventory";
 import Result from "./components/Result";
 
 function App() {
@@ -10,11 +12,9 @@ function App() {
 
   return (
     <>
-      <p className="read-the-docs">
-        Goal of this project is to provide access the state to all the
-        components
-      </p>
       <Header />
+      <MainStore />
+      <Inventory />
       <Result />
       <Footer />
     </>
