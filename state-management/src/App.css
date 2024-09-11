@@ -84,4 +84,11 @@
   background-color: rgb(124, 155, 155);
   padding: 20px;
   border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: rgb(204, 215, 215);
+  padding: 20px;
+  border-radius: 20px;
 }
