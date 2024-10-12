@@ -9,6 +9,7 @@ import MainStore from "./components/MainStore";
 import Inventory from "./components/Inventory";
 import Result from "./components/Result";
 import Aside from "./components/Aside";
+import TemplateReducer from "./components/TemplateReducer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Inventory />
         <Result />
         <Footer />
+        <TemplateReducer />
       </ProductCountProvider>
     </>
   );
